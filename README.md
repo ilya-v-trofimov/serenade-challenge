@@ -12,3 +12,4 @@ To run unit tests, following scripts need to be executed:
 Things to improve:
 - Better dependency injection, specifically for SpotifySdk
 - More tests
+- Environment configuration and envars injection
