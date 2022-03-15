@@ -1,5 +1,5 @@
 import { addUserPreferencesToPlaylist, UserPreference } from './StreamingService';
-import { SpotifySdk, SpotifySdkMockService } from './SpotifySdk';
+import { SpotifySdk, SpotifySdkMockService } from '../SpotifySdk';
 
 export interface User {
   likes: UserPreference[];

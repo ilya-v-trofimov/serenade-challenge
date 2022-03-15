@@ -5,7 +5,7 @@ import {
   getAllPreferredTracks,
   getTopTracksForArtist,
   UserPreference,
-} from '../src/StreamingService';
+} from '../src/Streaming/StreamingService';
 import resetAllMocks = jest.resetAllMocks;
 
 const fixtureTestArtist1: Artist = {

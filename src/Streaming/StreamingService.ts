@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { SpotifySdk, Track } from './SpotifySdk';
+import { SpotifySdk, Track } from '../SpotifySdk';
 
 export const TOP_TRACKS_MAX_NUMBER = 2;
 export const CURRENT_PLAYLIST_ID = 'current_playlist_id';
