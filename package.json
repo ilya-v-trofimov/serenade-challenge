@@ -2,8 +2,8 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run build && jest",
-    "lint": "eslint {src,test}/**/*.{ts,tsx}",
-    "lint:fix": "eslint {src,test}/**/*.{ts,tsx} --fix"
+    "lint": "eslint {src,test}/**/*.{ts}",
+    "lint:fix": "eslint {src,test}/**/*.{ts} --fix"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
